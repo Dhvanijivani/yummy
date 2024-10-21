@@ -1,0 +1,16 @@
+{
+  "name": "user03",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss:css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@srexi/purecounterjs": "^1.5.0",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.2.3"
+  }
+}

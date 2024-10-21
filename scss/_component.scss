@@ -1,0 +1,110 @@
+$danger:#ce1212;
+$info:darksalmon;
+.text1{
+    font-family: 'Amatic SC', sans-serif;
+  }
+.hov1:hover{
+ color: red;
+}
+.block1{
+    background-image: url(../img/about.jpg);
+    background-size: cover;
+    padding: 180px 250px;
+}
+.top{
+    top:77%;
+}
+.block2{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/stats-bg.jpg) center center;
+    background-size: cover;
+    padding: 100px 0;
+  }
+ .block3:hover{
+color:$danger !important;
+ }
+ .carousel-indicators [data-bs-target]{
+    border-radius: 50% !important;
+    height: 10px !important;
+    width: 10px !important;
+    background-color:gray !important;
+    border: 1px solid gray !important;
+}
+.carousel-indicators [data-bs-target].active{
+    background-color:$danger!important;
+    border: $danger !important;
+}
+.block4{
+    height: 170px;
+    border-left:3px red solid;
+}
+.ev1{
+    border-left: 3px solid white;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/events-1.jpg) center center;
+    background-size: cover;
+    padding: 100px ;
+}
+.ev2{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/events-2.jpg) center center;
+    background-size: cover;
+    padding: 100px ;
+}
+.ev3{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/events-3.jpg) center center;
+    background-size: cover;
+    padding: 100px ;
+}
+.con1 {
+  position: relative;
+  }
+.middle {
+transition: .5s ;
+  opacity: 0;
+  position: absolute;
+  top: 20%;
+  left: 85%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  background-color:white;
+  z-index: 2;
+}
+.con1:hover .middle {
+  opacity: 1;
+}
+.con1:hover .middle {
+  opacity: 1;
+}
+.text2 {
+  opacity: 0.5;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.text2:hover{
+  color: gray;
+  opacity: 1;
+}
+.block5{
+  background-image: url(../img/reservation.jpg);
+  background-size: cover;
+}
+.text3{
+  color: white;
+  padding: 10px;
+  border: 1px solid gray;
+}
+.text3:hover{
+  border: 1px solid  white;
+}
+.hov:hover{
+  color: black !important;
+  border-bottom: 2px solid red ;
+}
+.effect:hover{
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+.text4{
+  font-size: 55px;
+}
+
+@import"../node_modules/bootstrap/scss/bootstrap.scss";
